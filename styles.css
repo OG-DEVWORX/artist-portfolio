@@ -1,0 +1,94 @@
+body {
+    font-family: "Cormorant", serif;
+}
+
+/* Styling the header, including the navbar */
+h1 {
+    display: inline-block;
+    font-weight: 300;
+    margin: 0 32px 0 0;
+}
+
+.navbar {
+    margin: 32px;
+}
+
+.links {
+    display: inline-block;
+}
+
+.links li {
+    display: inline-block;
+}
+
+.links a {
+    font-size:20px;
+    text-decoration: none;
+    color: #000;
+    margin: 0 8px; 
+}
+
+.links ul {
+    padding: 0;
+}
+
+a.active {
+    border-bottom: 1px solid #000;
+}
+
+/* Styling the photo gallary */
+
+.gallary {
+    padding: 16px;
+}
+
+.card {
+    display: inline-block;
+    width: 49.75%;
+    box-sizing: border-box;
+    padding: 16px;
+}
+
+.card img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card h2 {
+    display: inline-block;
+    margin: 8px 0 16px 0;
+    font-weight: 300;
+}
+
+.card img:hover {
+    opacity: 0.9;
+}
+
+/* Styling the about section */
+.about {
+    width: 40%;
+    min-width: 600px;
+    margin: 100px 0 100px 200px;
+}
+
+.about h3 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.contact {
+    margin-top: 100px;
+}
+
+.contact p {
+    margin: 0;
+    font-size: 20px;
+}
+
+.cta {
+    border-bottom: 1px solid #000;
+    padding-bottom: 8px;
+    display: inline-block;
+    margin-top: 0;
+}
