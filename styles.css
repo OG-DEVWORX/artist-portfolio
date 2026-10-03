@@ -92,3 +92,32 @@ a.active {
     display: inline-block;
     margin-top: 0;
 }
+
+@media only screen and (max-width:1200px) {
+    .card {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    .card {
+        width: 100%;
+    }
+
+    .about {
+        margin: 100px 0 100px 100px;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .card {
+        padding: 0;
+    }
+    .gallary {
+        padding: 0;
+    }
+    .about {
+        margin: 100px auto;
+        min-width: 450; 
+    }
+}
